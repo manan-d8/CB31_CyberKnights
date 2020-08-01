@@ -13,6 +13,7 @@ import matplotlib.pyplot as plt
 from tensorflow import keras
 import time
 import csv
+import newSkew as skw
 
 class Character_Detector:
 	def __init__(self):
@@ -318,13 +319,14 @@ if __name__ == '__main__':
 		print("-  -"*25)
 		print("*"*100)
 		img = cv2.imread(img_p)
-
+		skewObj=skw.newSkew()
+		Noplate_Skew_img=skewObj.StartProcess(img)
 		t1 = time.time()
-		ret = NpdObj.Detect_Characters(img)
+		ret = NpdObj.Detect_Characters(Noplate_Skew_img)
 		t2= time.time()
 		print("[TIME] ", t2-t1)
 		data.append([(img_p.split('\\')[-1]) , ret])
-
+		
 	with open('CyberKnights_OCR_test.tsv', 'w', newline='') as f_output:
 		tsv_output = csv.writer(f_output, delimiter='\t')
 		tsv_output.writerow(['image' , 'OCR'])
