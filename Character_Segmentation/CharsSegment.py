@@ -10,20 +10,20 @@ class Char_Seg:
 		self.nmsThreshold = 0.1 
 		self.inpWidth = 416  
 		self.inpHeight = 416 
-		self.classes  = r'Classes\classes.names'
+		self.classes  = r'Character_Segmentation\Classes\classes.names'
 		with open(self.classes, 'rt') as f:
 			self.classes = f.read().rstrip('\n').split('\n')
 		global classes
 		classes = self.classes
-		self.modelConfiguration = r"Cfg\YoloV3SIH(chars-segment).cfg"
-		self.modelWeights = r"Weights\YoloV3SIH(chars-segment)_final.weights"
+		self.modelConfiguration = r"Character_Segmentation\Cfg\YoloV3SIH(Segmentation).cfg"
+		self.modelWeights = r"E:\0NewDev\SIH\SIH_APP_SERVER\SIH_SERVER\\API\weights\YoloV3SIH(Segmentation)_final.weights"
 		self.net = cv2.dnn.readNetFromDarknet(self.modelConfiguration, self.modelWeights)
 		try :
 			self.net.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA)
 			self.net.setPreferableTarget(cv2.dnn.DNN_TARGET_CUDA)
 		except Exception as e:
 			Print('[ INFO ]', 'Cuda Not Available , Using Cpu')
-			self.net.setPreferableBackend(cv2.dnn.DNN_BACKEND_OPENCV)
+																				
 			self.net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
 
 
@@ -38,7 +38,7 @@ class Char_Seg:
 
 		nd2= time.time()
 
-		print('[ Time ]','[NoPlate Detection Time]',nd2-nd1)
+		print('[ Time ]','[Char Detection Time]',nd2-nd1)
 		retVal = 0
 		if self.res != []:
 			retVal = 1

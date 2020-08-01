@@ -3,6 +3,7 @@
 ### Model is Trained on 36000 Images  with each class having 1000 images.
 ### Acc : 83.14%
 
+### please Change Weights And Weights path accordingly...
 
 # How To Use ?
 ##### Step 1 

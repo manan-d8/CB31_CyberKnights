@@ -4,6 +4,8 @@
 ### Acc : 95.50%
 ### IOU : 76.64%
 
+### please Change Weights And Weights path accordingly...
+
 # How To Use ?
 ##### Step 1 
 * Dawnload Our Weights File From [here](https://drive.google.com/file/d/1l3Nr6pL-xk0jxI-HtO2-tgKL5aJLcsLa/view?usp=sharing)
