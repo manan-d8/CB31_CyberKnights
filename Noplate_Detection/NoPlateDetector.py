@@ -10,13 +10,13 @@ class No_Plate_Detector:
 		self.nmsThreshold = 0.1 
 		self.inpWidth = 416  
 		self.inpHeight = 416 
-		self.classes  = r'Classes\classes.names'
+		self.classes  = r'E:\0NewDev\SIH\SIH_APP_SERVER\SIH_SERVER\\API\weights\YoloV3SIH(Noplate)\Classes\classes.names'
 		with open(self.classes, 'rt') as f:
 			self.classes = f.read().rstrip('\n').split('\n')
 		global classes
 		classes = self.classes
-		self.modelConfiguration = r"Cfg\YoloV3SIH(Noplate).cfg"
-		self.modelWeights = r"E:\0NewDev\SIH\SIH_APP_SERVER\SIH_SERVER\API\weights\YoloV3SIH(Noplate)_final.weights"
+		self.modelConfiguration = r"E:\0NewDev\SIH\SIH_APP_SERVER\SIH_SERVER\\API\weights\YoloV3SIH(Noplate)\cfgs\YoloV3SIH(Noplate).cfg"
+		self.modelWeights = r"E:\0NewDev\SIH\SIH_APP_SERVER\SIH_SERVER\\API\weights\YoloV3SIH(Noplate)_final.weights"
 		self.net = cv2.dnn.readNetFromDarknet(self.modelConfiguration, self.modelWeights)
 		try :
 			self.net.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA)

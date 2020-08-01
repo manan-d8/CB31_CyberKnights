@@ -1,0 +1,92 @@
+	div.baskdrop {
+		position: fixed;
+  		/*background-color: " #87d0c5";*/
+      background-image: linear-gradient( #87d0c5, #B3F39D);
+
+	    width: 100%; /* Full width */
+	    height: 100%; 
+      overflow: auto;
+	}
+    body.baskdrop {
+      position: fixed;
+      background-image: linear-gradient(to bottom right, #87d0c5, #B3F39D);
+  }
+  div.indexbackdrop {
+    /*position: fixed;*/
+      background-color: " #fefefe";
+      /*background-image: linear-gradient(#87d0c5,  #B3F39D, #87d0c5);*/
+      width: 100%; /* Full width */
+      height: 100%; 
+  }
+	input{
+		/*width: 80%;*/
+		background-color: rgba(0,0,0,0.1);
+	}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+  padding: 1%;
+  
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;  5% from the top, 15% from the bottom and centered 
+  border: 1px solid #888;
+  border-radius: 2%;
+  height: 60%;
+  width: 30%; 
+  padding: 3%;
+  /*border-radius: 20%*/
+}
+.login {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;  5% from the top, 15% from the bottom and centered 
+  border: 1px solid #888;
+  border-radius: 2%;
+  height: 60%;
+  width: 30%; 
+  padding: 3%;
+  /*border-radius: 20%*/
+}
+.NoPlateForm{
+  background-color: #fefefe;
+  /*margin: 10% auto 10% auto;  10% from the top, 10% from the bottom and centered */
+  background: #fefefe
+  margin: 10%
+  border: 5px solid Black;
+  /*height: 60%;*/
+  /*width: 35%; */
+  padding: 5%;
+  border-radius: 2%;
+  float: left;
+  overflow: auto;
+}
+.APIinfo {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;  5% from the top, 15% from the bottom and centered 
+  border: 1px solid #888;
+  border-radius: 2%;
+  height: 60%;
+  width: 80%; 
+  padding: 3%;
+  /*border-radius: 20%*/
+}
+/*.hoverblack {
+  background-color: black;
+  color: black;
+}*/
+/*li:hover {
+  color: black;
+}*/

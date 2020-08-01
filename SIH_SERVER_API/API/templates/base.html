@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+   {# Make modifiable head elements #}
+   <head>
+      <title>{% block title %}Home {% endblock title %} | ANPR</title>
+      {% block head_favicon %}
+      <link rel="icon" type="image/png"
+         href="{{ STATIC_URL }}images/favicon.ico">
+      {% endblock head_favicon %}
+      {% block head_meta %}
+      {% block head_meta_charset %}
+      <meta http-equiv="Content-Type"
+         content="text/html; charset=utf-8" />
+      {% endblock head_meta_charset %}
+      {% block head_meta_contentlanguage %}
+      <meta http-equiv="Content-Language" value="en-US" />
+      {% endblock head_meta_contentlanguage %}
+      {% block head_meta_viewport %}
+      <meta name="viewport"
+         content="width=device-width, initial-scale=1.0">
+      {% endblock head_meta_viewport %}
+      {% endblock head_meta %}
+      {% block head_css %}
+      {% block head_css_site %}
+      <link href="/static/main.97292821.css"
+         rel="stylesheet" media="screen"> 
+         <link href="/static/mystyle.css"       rel="stylesheet" type="text/css" >  
+      <!--                 <link href=""
+         rel="stylesheet" media="screen"> -->
+      {% endblock head_css_site %}
+      {% block head_css_section %}{% endblock head_css_section %}
+      {% block head_css_page %}{% endblock head_css_page %}
+      <style type="text/css">
+         body{
+            /*#344B47*/
+            /*background-color: #17252A;*/
+            background: #fefefe;
+             /*background-image: linear-gradient( #87d0c5, #B3F39D);*/
+         }
+         .HWfull{
+         height: 100%;
+         width:  100%;
+         /*height: 400px;*/
+         }
+         .oflow{
+         overflow: auto;
+         }
+         li.header{
+         padding-left: 10px;
+         padding-right: 10px;
+         padding-top: 10px;
+         }
+      </style>
+      {% endblock head_css %}
+   </head>
+   <body>
+      {# Navigation Menu #}
+      <header>
+         <div class="navbar navbar-default navbar-static-top navbar navbar-inverse{% block nav-style %}{% endblock %}">
+            <div class="container p-none HWfull">
+               <div class="navbar-header ">
+                  <button type="button" class="navbar-toggle"
+                     data-toggle="collapse"
+                     data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <a class="" href="/" style=" font-size: 45px; font-family: Arial, Helvetica, sans-serif ;"  ><strong> ASCV </strong></a>
+                  Automated System for Car Parking and Vehicle Monitoring
+               </div>
+               <div class="collapse navbar-collapse HWfull">
+                  <ul class="nav navbar-nav navbar-right ">
+                     {% if user.is_authenticated %}
+                     <!-- <li class="header "> <a class=" btn btn-primary ">Logged in : {{  user.get_username  }} </a></li> -->
+                     <li class ="header" ><a class="btn hoverblack btn-primary" href="/LogOut">Logout</a></li>
+                     <li class ="header" ><a class="btn hoverblack btn-primary" href="/AccDetails" >Logged in as: {{  user.get_username  }}</a></li>
+                     <li class = "header"><a class="btn btn-primary" href="/ApiInfo">Api Info</a></li>
+                     {% else %}
+                        <li class ="header" ><a class="btn hoverblack btn-primary" href="/login">Login</a></li>
+                        <li class ="header" ><a class="btn hoverblack btn-primary" href="/SignUp" >Sign Up</a></li>
+                        <li class = "header"><a class="btn hoverblack btn-primary" href="/ApiInfo">Api Info</a></li>
+                     {% endif %}
+                     <li class ="header" ><a class="btn btn-primary" onclick="goBack()">Go Back</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </header>
+      {# The Document Body #}
+      <div id="site-wrapper">
+         {% block content %}
+         if you see this, something is wrong!
+         {% endblock content %}
+      </div>
+      {# The Footer #}
+      <div class="footer">
+         <div class="container">
+            <!-- <p><h2>SIH 2020 Footer</h2></p> -->
+         </div>
+      </div>
+   </body>
+   <script>
+      function goBack() {
+        window.history.back();
+      }
+      document.addEventListener("DOMContentLoaded", function (event) {
+          navbarToggleSidebar();
+        });
+   </script>
+
+<script type="text/javascript" src="./static/main.faaf51f9.js"></script>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Api Info</title>
+      <link href="/static/mystyle.css"       rel="stylesheet" type="text/css" >
+      <link href="/static/main.97292821.css" rel="stylesheet">
+</head>
+<body>
+{% extends "base.html" %}
+{% block content %}
+      <div class="baskdrop" style=" margin: 3% background=#fefefe">
+      <div class="section-container">
+      <div class="container ">
+	      <div class="col-xs-12 col-md-12">
+	      	<h2 class="text-center">How to Use Our API ???</h2>
+	  	  </div>
+  	  </div>
+      <div class="section-container">
+         <div class="container ">
+            <div class="row">
+               <div class="col-xs-12 col-md-12">
+                  <div class="APIinfo">
+                     <h3>Our API will takes images of vehicle in any format as an input, and it decodes the numberplate and return back it to you as an image and you can also download it.
+                        Our algo handles plates that are blurry, dark, angled, with stacked characters, etc. 
+                     </h3>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="section-container">
+      <div class="container ">
+      <div class="row">
+         <div class="col-xs-12 col-md-12">
+            <div class="APIinfo">
+               <h4>sample code</h4>
+               <pre>
+import requests
+from pprint import pprint
+
+img_path = " [ image path ] "
+
+print(img_path)
+with open(img_p, 'rb') as fp:
+    response = requests.post(
+        'http://192.168.1.223:8000/test/',
+        files=dict(Img_upload = fp))
+print(response)
+pprint(response.json())
+</pre>
+		            </div>
+		         </div>
+		      </div>
+          </div>
+      </div>
+      <div class="section-container">
+         <div class="container ">
+            <div class="row">
+               <div class="col-xs-12 col-md-12">
+                  <div class="APIinfo">
+                     <h4>Return Value If Number Plate Is Detected</h4>
+<pre>
+{
+{
+"No_Plate" : "True",
+"Detecte_Plates" : { 
+				'No_Plate_1' : {
+					"FINAL_PRED" : 'GJ01MA3999'
+					"Original_img" : {
+						'Result' : 'GJ01MA3999' ,
+						'Coord' : (X,Y,EX,EY) ,
+						'Accuracy' :  ACC 
+						}
+					"Skew_img" : {
+						'Result' : 'GJ02MA3999' ,
+						'Coord' : (X,Y,EX,EY) ,
+						'Accuracy' :  ACC 
+						}
+					},
+				'No_Plate_2' : {
+					"FINAL_PRED" : 'GJ01MA3999'
+
+				},
+	}
+}
+
+</pre>
+                  </div>
+               </div>
+        </div>
+     </div>
+
+       <div class="container ">
+          <div class="row">
+             <div class="col-xs-12 col-md-12">
+                <div class="APIinfo">
+                   <h4>Return Value If Number Plate Not Detected</h4>
+<pre>
+{
+	"No_Plate" : False,
+}
+</pre>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+         </div>
+      </div>
+      {% endblock %}
+   </body>
+</html>
