@@ -1,8 +1,16 @@
 # Number Plate Detection Model
+
+## Old Model
 ### We Used YoloV3 for Number Plate Detection.
 ### Model is Trained on Approximate 2000 Images.
 ### Acc : 92.21%
 ### IOU : 72.89%
+
+## New Model
+### We used YoloV3 for Number Plate Detection.
+### Model is Trained on Approximate 3700 Images.
+### Acc : 93.84%
+### IOU : 74.16%
 
 ### please Change Weights And Weights path accordingly...
 
