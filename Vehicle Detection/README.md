@@ -7,7 +7,7 @@ we have used caffe with ssd to train model for vehicle detection
 we trained on 5000 labelled images for over 10000 iterations
 
 evaluation table:
-10000 iteration gives 97% accuracy on test dataset of 120 images
+11000 iteration gives 97.5% accuracy on test dataset of 120 images
 
 
 ## How to use
