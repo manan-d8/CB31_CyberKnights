@@ -1,8 +1,15 @@
 # Charecter Segmentation Model
-### We Used YoloV3 for Charecter Segmentation.
+## Old Model
+### We Used YoloV3 for Character Segmentation.
 ### Model is Trained on Approximate 1000 Images with each having 8-10 charecters.
 ### Acc : 95.50%
 ### IOU : 76.64%
+
+## New Model
+### We used YoloV3 for Character Segmentation.
+### Model is Trained on Approximate 2200 Images with each having 8-10 characters.
+### Acc : 97.38%
+### IOU : 76.87%
 
 ### please Change Weights And Weights path accordingly...
 
