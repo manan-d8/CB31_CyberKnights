@@ -4,8 +4,8 @@ we have used caffe with ssd to train model for vehicle detection
 
 ## Training Dataset
 
-we trained on 5000 labelled images for over 14000 iterations
-
+we trained on 5000 labelled images for over 15000 iterations
+note:stopped at 15000 as loss or accuracy was not improving
 evaluation table:
 11000 iteration gives 97.5% accuracy on test dataset of 120 images
 
