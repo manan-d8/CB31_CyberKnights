@@ -1,12 +1,12 @@
-# Charecter Detection Model
-### We Used YoloV3 for Charecter Detection.
-### Model is Trained on Approximate 1000 Images with each having 8-10 charecters.
+# Character Detection Model
+### YoloV3 for Charecter Detection have been used.
+### Model is Trained on Approximate 1000 Images with each having 8-10 characters.
 ### Acc : 84.66%
 ### IOU : 74.25%
 
 # How To Use ?
 ##### Step 1 
-* Dawnload Our Weights File From [here](https://drive.google.com/file/d/1DC7a8VNodvJYHZwn1pl8bPj0EYOh086H/view?usp=sharing)
+* Download Our Weights File From [here](https://drive.google.com/file/d/1DC7a8VNodvJYHZwn1pl8bPj0EYOh086H/view?usp=sharing)
 * Put this Weights File in Weights Folder in Character_Detection Folder
 
 ##### step 2
