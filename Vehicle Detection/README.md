@@ -35,7 +35,7 @@ run the caffe_detection.py
 result of detected vehicles in images will be marked and saved in the Results directory
 
 ## Test Screenshots
-https://github.com/manan-d8/CB31_CyberKnights/tree/master/Vehicle Detection/Results/1.jpg
+https://github.com/manan-d8/CB31_CyberKnights/tree/master/Vehicle%20Detection/Results/1.jpg
 https://github.com/manan-d8/CB31_CyberKnights/tree/master/Vehicle Detection/Results/2.jpg
 https://github.com/manan-d8/CB31_CyberKnights/tree/master/Vehicle Detection/Results/3.jpg
 https://github.com/manan-d8/CB31_CyberKnights/tree/master/Vehicle Detection/Results/4.jpg
