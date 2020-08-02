@@ -6,7 +6,7 @@ class DB_Handle:
 		self.db = self.DB_Connect()
 
 	def DB_Connect(self):
-		mydb = mysql.connector.connect(	host="192.168.0.106",
+		mydb = mysql.connector.connect(	host="192.168.0.106",port=8080,
 											user="SIH",
 											password="SIH2020",
 											database="SIH2020"
