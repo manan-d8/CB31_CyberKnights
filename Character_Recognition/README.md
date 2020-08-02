@@ -1,7 +1,13 @@
 # Character Recognition Model
+## Old Model
 ### We Used AlexNet with tensorflow / Keras for character Recognition.
 ### Model is Trained on 36000 Images  with each class having 1000 images.
 ### Acc : 83.14%
+
+## New Model
+### We have ensembled ResNetV2, ResNet, DenseNet169 Models for character Recognition.
+### Model is Trained on 36000 Images with each class having 1000 images.
+### Acc : 90.1%
 
 ### please Change Weights And Weights path accordingly...
 
