@@ -1,5 +1,5 @@
-# Charecter Recognition Model
-### We Used AlexNet with tensorflow / Keras for charecter Recognition.
+# Character Recognition Model
+### We Used AlexNet with tensorflow / Keras for character Recognition.
 ### Model is Trained on 36000 Images  with each class having 1000 images.
 ### Acc : 83.14%
 
@@ -7,7 +7,7 @@
 
 # How To Use ?
 ##### Step 1 
-* Dawnload Our Weights File From [here](https://drive.google.com/file/d/1Z5ZFATBNEarQfEa5KhLY1ybzg_TDdko0/view?usp=sharing)
+* Download Our Weights File From [here](https://drive.google.com/file/d/1Z5ZFATBNEarQfEa5KhLY1ybzg_TDdko0/view?usp=sharing)
 * Put this Weights File in Weights Folder in Character_Segmentation Folder
 
 ##### step 2
@@ -18,7 +18,7 @@ https://www.python.org/downloads/
 * Install opencv
 * for CPU
 > !pip install opencv-python
-* If you want to use GPU You have to build opencv from source with cuda support which will increase perfomance of the model.
+* If you want to use GPU You have to build opencv from source with cuda support which will increase performance of the model.
 * Install Tensorflow == 2.0
 * for CPU
 > !pip install tensorflow
