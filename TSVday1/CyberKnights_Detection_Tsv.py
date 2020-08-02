@@ -27,7 +27,7 @@ inpWidth = 416
 inpHeight = 416
 classes = None
 counter = 0
-CLASSES = ["background","car","bicycle","motorbike","bus"]
+CLASSES = ["background","car","motorbike","bus"]
 
 conf = Conf("config.json")
 net = cv.dnn.readNetFromCaffe(conf["prototxt_path"],conf["model_path"])
@@ -116,7 +116,7 @@ for l in tqdm(lis):
 				box = detections[0, 0, i, 3:7] * np.array([W, H, W, H])
 				(startX, startY, endX, endY) = box.astype("int")
 				H,W,_ = img.shape
-				# cv.rectangle(img, (startX, startY), (endX, endY), (255, 178, 50), 10)
+				cv.rectangle(img, (startX, startY), (endX, endY), (255, 178, 50), 5)
 				# fPathTxt = l[36:-4]
 				pts=[startX,startY,endX,endY]
 				classname=CLASSES[idx]
@@ -136,18 +136,20 @@ for l in tqdm(lis):
 				# 		det_data=[base,pts,"plate"]
 				# 		detection_tsv(det_data,"a")
 				print('here')
-				Noplate_Ret = NpdObj.Check_if_NoPlate_Exist(img)
-				print('back')
-				print(Noplate_Ret)
-				if Noplate_Ret[0]:
-					n=0
-					for i,res in enumerate(Noplate_Ret[1]):
-						Noplate_img = tempimg[res[0]:res[0]+res[3],res[1]:res[1]+res[2]]
-						pts=[res[1],res[0],res[3],res[2]]
-						base=os.path.basename(l)
-						det_data=[base,pts,"plate"]
-						detection_tsv(det_data,"a")
-
+		Noplate_Ret = NpdObj.Check_if_NoPlate_Exist(img)
+		print('back')
+		print(Noplate_Ret)
+		if Noplate_Ret[0]:
+			n=0
+			for i,res in enumerate(Noplate_Ret[1]):
+				cv.rectangle(img, ( res[1],res[0]), (res[1]+res[2], res[0]+res[3]), (255, 178, 50), 2)
+				# Noplate_img = tempimg[res[0]:res[1]+res[3],res[1]:res[0]+res[2]]
+				pts=[res[1],res[0],res[1]+res[2],res[0]+res[3]]
+				base=os.path.basename(l)
+				det_data=[base,pts,"plate"]
+				detection_tsv(det_data,"a")
+		# cv.imshow("frame" , img)
+		# cv.waitKey(0)
 			
 	except Exception as e:
 		pass

@@ -34,7 +34,7 @@
 	// path the object detection model
 	// "model_path": "MobileNetSSD_deploy.caffemodel",
 	// "model_path": "no_bn-2.caffemodel",
-	"model_path": "E:/0NewDev/SIH/SIH_APP_SERVER/SIH_SERVER/API/weights/4000.caffemodel",
+	"model_path": "E:/0NewDev/SIH/SIH_APP_SERVER/SIH_SERVER/API/weights/New10000.caffemodel",
 	// "model_path": "VGG_VOC0712_SSD_300x300_iter_120000.caffemodel",
 
 
@@ -42,7 +42,7 @@
 	// "prototxt_path": "MobileNetSSD_deploy.prototxt",
 	// "prototxt_path": "deploy.prototxt",
 	// "prototxt_path": "no_bn.prototxt",
-	"prototxt_path": "4000.prototxt",
+	"prototxt_path": "New10000.prototxt",
 
 	// flag used to check if dropbox is to be used and dropbox access
 	// token
