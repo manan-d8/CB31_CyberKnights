@@ -1,5 +1,5 @@
 # Character Detection Model
-### YoloV3 for Charecter Detection have been used.
+### YoloV3 for Character Detection have been used.
 ### Model is Trained on Approximate 1000 Images with each having 8-10 characters.
 ### Acc : 84.66%
 ### IOU : 74.25%
