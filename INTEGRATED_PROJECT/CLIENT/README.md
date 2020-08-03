@@ -22,9 +22,9 @@ https://user-images.githubusercontent.com/58988696/89214868-39131380-d5e5-11ea-9
 https://user-images.githubusercontent.com/58988696/89214871-3a444080-d5e5-11ea-83d6-305c79cb984c.JPG
 
 ## Email notifications screenshots
-https://user-images.githubusercontent.com/58988696/89216281-bc356900-d5e7-11ea-8d6a-4ac4200398df.jpg[in english]
+https://user-images.githubusercontent.com/58988696/89216281-bc356900-d5e7-11ea-8d6a-4ac4200398df.jpg  [in english]
 
-https://user-images.githubusercontent.com/58988696/89216292-c0fa1d00-d5e7-11ea-9a55-545a0d3363a0.jpg[in gujarati]
+https://user-images.githubusercontent.com/58988696/89216292-c0fa1d00-d5e7-11ea-9a55-545a0d3363a0.jpg  [in gujarati]
 
-https://user-images.githubusercontent.com/58988696/89216296-c22b4a00-d5e7-11ea-9b06-049a53b0b3af.jpg[in hindi]
+https://user-images.githubusercontent.com/58988696/89216296-c22b4a00-d5e7-11ea-9b06-049a53b0b3af.jpg  [in hindi]
 
