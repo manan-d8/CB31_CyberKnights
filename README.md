@@ -1,5 +1,5 @@
 # CB31_CyberKnights
-## A Repo For SIH2020 
+## Automated System for Car Parking and Vehicle Monitoring(ASCV)
 
 #### This project gives the solution to the residential societies by providing a machine learning model for vehicle number plate detection, identification and monitoring.   
 
