@@ -9,6 +9,8 @@
 
 #### By downloading the models you will be able to perform vehicle detection and number plate detection and recognition. 
 
+#### Weights for the model can be downloaded from here :  https://drive.google.com/drive/folders/1zP2cQ_LVuVzXykqso9mVDAjvDTHYF4nR?usp=sharing
+
 #### You can also find the detailed information about these models in their respected folder readme files.
 
 ### Further more we have also added the Email Notification system for the security and privacy purpose of the residential areas.
