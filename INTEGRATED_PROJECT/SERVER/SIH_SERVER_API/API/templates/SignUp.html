@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up</title>
+  <link href="/static/main.97292821.css" rel="stylesheet">
+<link href="/static/mystyle.css"       rel="stylesheet" type="text/css" >  
+</head>
+<body>
+{% extends "base.html" %}
+{% block content %}
+<div class="baskdrop model">
+<center>
+  <h2>Sign up</h2>
+ <form method="post" class = "modal-content"> 
+    {% csrf_token %}
+    {% for field in form %}
+      <p>
+        <!-- {{ field.label_tag }}<br> -->
+        {{ field }}
+<!--         {% if field.help_text %}
+          <small style="color: grey">{{ field.help_text }}</small>
+        {% endif %} -->
+        {% for error in field.errors %}
+          <p style="color: red">{{ error }}</p>
+        {% endfor %}
+      </p>
+    {% endfor %}
+    <button type="submit" class="btn btn-primary">Sign up</button>
+  </form>
+</center>
+</div>
+{% endblock %}
+</body>
+
+</html>

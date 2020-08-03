@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+</head>
+<body>
+<h1><center>SIH 2020</center></h1>
+<h1><center>You Are Logged In</center></h1>
+<form method = "post" enctype="multipart/form-data">
+  <label for="img">Select image:</label>
+  <!-- <input type="file" id="img" name="img" accept="image/*"> -->
+    {% csrf_token %} 
+    {{ form.as_p }} 
+  <input type="submit">
+</form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link href="/static/main.97292821.css" rel="stylesheet">
+<link href="/static/mystyle.css"       rel="stylesheet" type="text/css" >	
+</head>
+<body>
+{% extends "base.html" %}
+{% block content %}
+
+<div class="baskdrop model">
+<center>
+ <h2>Login Here</h2>
+<form method="post" class = "modal-content"> 
+    {% csrf_token %}
+    {% for field in form %}
+      <p class="form-group">
+        {{ field.label_tag }}<br>
+        {{ field }}
+        {% if field.help_text %}
+          <small style="color: grey">{{ field.help_text }}</small>
+        {% endif %}
+        {% for error in field.errors %}
+          <p style="color: red">{{ error }}</p>
+        {% endfor %}
+      </p>
+    {% endfor %}
+    <button type="submit" class="btn btn-primary">Log In</button>
+  </form>
+  </center>
+  </div> 
+
+{% endblock %}
+<!-- <footer class="f4">
+  <div>
+    some text
+  </div>
+</footer>
+</body> -->
+
+</html>
