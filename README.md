@@ -27,7 +27,7 @@ https://user-images.githubusercontent.com/58988696/89212905-eedc6300-d5e1-11ea-9
 
 https://user-images.githubusercontent.com/58988696/89212908-f00d9000-d5e1-11ea-9166-4658254db4a1.jpg
 
-## Character Detection screenshots
+## Character Detection screenshots 
 https://user-images.githubusercontent.com/58988696/89212879-e6842800-d5e1-11ea-8aec-f9a81b480591.jpg
 
 https://user-images.githubusercontent.com/58988696/89212893-e97f1880-d5e1-11ea-9605-a4c540da9d6b.jpg
