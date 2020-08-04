@@ -38,12 +38,12 @@ https://www.python.org/downloads/
 * And also Write output files in results folder.
 
 # Test Screenshots
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Noplate_Detection/Results/NoPlateRes7.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Noplate_Detection/Results/NoPlateRes7.jpg)
 
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Noplate_Detection/Results/NoPlateRes9.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Noplate_Detection/Results/NoPlateRes9.jpg)
 
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Noplate_Detection/Results/NoPlateRes8.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Noplate_Detection/Results/NoPlateRes8.jpg)
 
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Noplate_Detection/Results/NoPlateRes6.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Noplate_Detection/Results/NoPlateRes6.jpg)
 
 
