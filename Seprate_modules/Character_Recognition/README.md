@@ -39,12 +39,12 @@ https://www.python.org/downloads/
 * And also Write output files in results folder.
 
 # Test Screenshots
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Recognition/Results/CharReco1.jpg)
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Recognition/Results/CharReco2.jpg)
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Recognition/Results/CharReco3.jpg)
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Recognition/Results/CharReco5.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Recognition/Results/CharReco1.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Recognition/Results/CharReco2.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Recognition/Results/CharReco3.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Recognition/Results/CharReco5.jpg)
 
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Recognition/Results/CharReco6.jpg)
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Recognition/Results/CharReco7.jpg)
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Recognition/Results/CharReco8.jpg)
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Recognition/Results/CharReco9.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Recognition/Results/CharReco6.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Recognition/Results/CharReco7.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Recognition/Results/CharReco8.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Recognition/Results/CharReco9.jpg)
