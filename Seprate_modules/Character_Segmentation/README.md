@@ -37,13 +37,12 @@ https://www.python.org/downloads/
 * And also Write output files in results folder.
 
 # Test Screenshots
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Segmentation/Results/CharSeg9.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Segmentation/Results/CharSeg9.jpg)
 
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Segmentation/Results/CharSeg6.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Segmentation/Results/CharSeg6.jpg)
 
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Segmentation/Results/CharSeg1.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Segmentation/Results/CharSeg1.jpg)
 
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Segmentation/Results/CharSeg2.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Segmentation/Results/CharSeg2.jpg)
 
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Segmentation/Results/CharSeg5.jpg)
-
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Segmentation/Results/CharSeg5.jpg)
