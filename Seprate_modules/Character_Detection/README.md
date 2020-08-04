@@ -28,13 +28,13 @@ https://www.python.org/downloads/
 * And also Write output files in results folder.
 
 # Test Screenshots
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Detection/Results/CharDetect9.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Detection/Results/CharDetect9.jpg)
 
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Detection/Results/CharDetect6.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Detection/Results/CharDetect14.jpg)
 
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Detection/Results/CharDetect1.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Detection/Results/CharDetect10.jpg)
 
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Detection/Results/CharDetect2.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Detection/Results/CharDetect12.jpg)
 
-![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Character_Detection/Results/CharDetect5.jpg)
+![Screen Shot 1](https://github.com/manan-d8/CB31_CyberKnights/blob/master/Seprate_modules/Character_Detection/Results/CharDetect11.jpg)
 
